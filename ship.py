@@ -9,7 +9,7 @@ class Ship:
         self.settings = ai_game.settings
 
         # load ship and get it's rect
-        self.image = pygame.image.load('venv/images/ship.bmp')
+        self.image = pygame.image.load('resources/ship.bmp')
         self.rect = self.image.get_rect()
         # set ship at bottom middle
         self.rect.midbottom = self.screen_rect.midbottom
